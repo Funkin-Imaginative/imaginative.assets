@@ -18,13 +18,13 @@ function render():Void {
 
 function create():Void {
 	render();
-	conductor.onComplete.add(render);
-	add(p1 = new Character(300, 300, 'boyfriend', true));
-	// p1.screenCenter();
-	// p1.x += 300;
-	add(p2 = new Character(300, 300, 'boyfriend'));
-	// p2.screenCenter();
-	// p2.x -= 300;
+	conductor._onComplete = render;
+	add(p1 = new Character(0, 0, 'boyfriend', true));
+	p1.screenCenter();
+	p1.x += 300;
+	add(p2 = new Character(0, 0, 'boyfriend'));
+	p2.screenCenter();
+	p2.x -= 300;
 }
 
 var anims:Array<String> = ['left', 'down', 'up', 'right'];
@@ -59,6 +59,3 @@ function update(elasped:Float):Void {
 	if (Controls.back)
 		BeatState.switchState(new TitleScreen());
 }
-
-function end():Void
-	conductor.onComplete.remove(render);
