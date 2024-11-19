@@ -38,7 +38,7 @@ var bindsHeld:Int->Bool = (dir:Int, is2:Bool) -> {
 	return [controls.noteLeftHeld, controls.noteDownHeld, controls.noteUpHeld, controls.noteRightHeld][dir];
 }
 
-function update(elasped:Float):Void {
+function update(elapsed:Float):Void {
 	for (char in [p1, p2]) {
 		for (i => name in anims) {
 			if (binds(i, char == p2)) {
