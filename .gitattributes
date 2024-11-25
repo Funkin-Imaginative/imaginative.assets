@@ -1,1 +1,2 @@
+* text=auto eol=lf
 *.{haxe,hscript,hsc,hxs,hxc} linguist-language=Haxe
