@@ -30,11 +30,11 @@ function create():Void {
 var anims:Array<String> = ['left', 'down', 'up', 'right'];
 
 var binds:Int->Bool = (dir:Int, is2:Bool) -> {
-	var controls:Controls = FunkinUtil.getDefault(is2, false) ? Controls.p2 : Controls.p1;
+	var controls:Controls = (is2 ?? false) ? Controls.p2 : Controls.p1;
 	return [controls.noteLeft, controls.noteDown, controls.noteUp, controls.noteRight][dir];
 }
 var bindsHeld:Int->Bool = (dir:Int, is2:Bool) -> {
-	var controls:Controls = FunkinUtil.getDefault(is2, false) ? Controls.p2 : Controls.p1;
+	var controls:Controls = (is2 ?? false) ? Controls.p2 : Controls.p1;
 	return [controls.noteLeftHeld, controls.noteDownHeld, controls.noteUpHeld, controls.noteRightHeld][dir];
 }
 
