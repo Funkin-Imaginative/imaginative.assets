@@ -267,8 +267,7 @@
 				{ "id": 1, "length": 700, "time": 98400, "characters": [], "type": "" },
 				{ "id": 2, "length": 300, "time": 98400, "characters": [], "type": "" },
 				{ "id": 3, "length": 300, "time": 98800, "characters": [], "type": "" }
-			],
-			"speed": 0
+			]
 		},
 		{
 			"tag": "player",
@@ -497,8 +496,7 @@
 				{ "id": 3, "length": 300, "time": 101600, "characters": [], "type": "" },
 				{ "id": 1, "length": 700, "time": 101600, "characters": [], "type": "" },
 				{ "id": 2, "length": 300, "time": 102000, "characters": [], "type": "" }
-			],
-			"speed": 0
+			]
 		}
 	],
 	"characters": [
@@ -514,6 +512,7 @@
 		}
 	],
 	"fieldSettings": {
+		"cameraTarget": "bf",
 		"order": ["enemy", "player"],
 		"enemy": "enemy",
 		"player": "player"
