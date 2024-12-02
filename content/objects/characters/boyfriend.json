@@ -3,7 +3,7 @@
 		"camera": {"x": -170, "y": -20},
 		"color": "#31B0D1",
 		"icon": "bf",
-		"holdlength": 4
+		"holdlength": 0.5
 	},
 	"beat": {
 		"interval": 2,
