@@ -7,7 +7,7 @@ var huh:BaseSprite;
 
 function create() {
     huh = new BaseSprite(135, 273, 'gameplay/combo/sick');
-    huh.scale.set(0.8, 0.8);
+    huh.scale.scale(0.8, 0.8);
     huh.updateHitbox();
     add(huh);
 }
