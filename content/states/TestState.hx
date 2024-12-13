@@ -1,4 +1,4 @@
-import states.TitleScreen;
+import imaginative.states.TitleScreen;
 
 var p1:Character;
 var p2:Character;
