@@ -3,7 +3,7 @@ import imaginative.states.TitleScreen;
 var p1:Character;
 var p2:Character;
 
-function render():Void {
+function render(?event):Void {
 	conductor.reset();
 	var song:String = 'Eggnog';
 	var variant:String = 'erect';
@@ -43,10 +43,10 @@ function update(elapsed:Float):Void {
 		for (i => name in anims) {
 			if (binds(i, char == p2)) {
 				char.playAnim('sing' + name.toUpperCase(), true, 'IsSinging');
-				char.lastHit = conductor.songPosition;
+				char.lastHit = conductor.time;
 			}
 			if (bindsHeld(i, char == p2)) {
-				char.lastHit = conductor.songPosition;
+				char.lastHit = conductor.time;
 				if (char.getAnimName() != ('sing' + name.toUpperCase())) {
 					char.playAnim('sing' + name.toUpperCase(), true, 'IsSinging');
 				}
