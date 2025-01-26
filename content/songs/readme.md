@@ -21,7 +21,7 @@ audio-erect.json
 audio.json
 meta.json
 ```
-`audio.json` explained in [`../music/`](/engine/assets/music/).
+`audio.json` explained in [`../music/`](/music/).
 
 example below
 ```json
@@ -37,4 +37,4 @@ example below
 	}
 }
 ```
-From [`../content/songs/Philly Nice/meta.json`](/engine/assets/content/songs/Philly%20Nice/meta.json)!
+From [`../content/songs/Philly Nice/meta.json`](/content/songs/Philly%20Nice/meta.json)!

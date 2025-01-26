@@ -18,4 +18,4 @@ example below
 	"color": "#F9CF51"
 }
 ```
-From [`../content/levels/Week 1.json`](/engine/assets/content/levels/Week%201.json)!
+From [`../content/levels/Week 1.json`](/content/levels/Week%201.json)!

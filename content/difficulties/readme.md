@@ -11,4 +11,4 @@ example below
 	"scoreMult": 1.5
 }
 ```
-From [`../content/difficulties/nightmare.json`](/engine/assets/content/difficulties/nightmare.json)!
+From [`../content/difficulties/nightmare.json`](/content/difficulties/nightmare.json)!

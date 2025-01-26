@@ -12,4 +12,4 @@ example below
 	"checkpoints": []
 }
 ```
-From [`../music/gameover/gameOver.json`](/engine/assets/music/gameover/gameOver.json)!
+From [`../music/gameover/gameOver.json`](/music/gameover/gameOver.json)!
