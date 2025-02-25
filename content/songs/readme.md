@@ -17,6 +17,10 @@ charts/
 	easy.json
 	hard.json
 	normal.json
+scripts/
+	erect/
+		script.hx
+	script.lua
 audio-erect.json
 audio.json
 meta.json
