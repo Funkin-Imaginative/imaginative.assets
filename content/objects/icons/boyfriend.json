@@ -1,0 +1,32 @@
+{
+	"beat": {
+		"interval": 1,
+		"skipnegative": false
+	},
+	"asset": {
+		"image": "ui/icons/boyfriend",
+		"type": "graphic"
+	},
+	"animations": [
+		{
+			"name": "normal",
+			"dimensions": {"x": 150, "y": 150},
+			"indices": [0],
+			"offset": {"x": 0, "y": 0},
+			"flip": {"x": false, "y": false},
+			"loop": false,
+			"fps": 24
+		},
+		{
+			"name": "losing",
+			"dimensions": {"x": 150, "y": 150},
+			"indices": [1],
+			"offset": {"x": 0, "y": 0},
+			"flip": {"x": false, "y": false},
+			"loop": false,
+			"fps": 24
+		}
+	],
+	"antialiasing": true,
+	"extra": []
+}

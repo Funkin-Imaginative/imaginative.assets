@@ -2,7 +2,7 @@
 	"character": {
 		"camera": {"x": -170, "y": -20},
 		"color": "#31B0D1",
-		"icon": "bf",
+		"icon": "boyfriend",
 		"singlength": 4
 	},
 	"beat": {
