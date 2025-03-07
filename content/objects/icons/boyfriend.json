@@ -5,12 +5,12 @@
 	},
 	"asset": {
 		"image": "ui/icons/boyfriend",
-		"type": "graphic"
+		"type": "graphic",
+		"dimensions": {"x": 150, "y": 150}
 	},
 	"animations": [
 		{
 			"name": "normal",
-			"dimensions": {"x": 150, "y": 150},
 			"indices": [0],
 			"offset": {"x": 0, "y": 0},
 			"flip": {"x": false, "y": false},
@@ -19,7 +19,6 @@
 		},
 		{
 			"name": "losing",
-			"dimensions": {"x": 150, "y": 150},
 			"indices": [1],
 			"offset": {"x": 0, "y": 0},
 			"flip": {"x": false, "y": false},
