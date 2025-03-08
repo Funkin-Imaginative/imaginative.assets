@@ -5,7 +5,7 @@
 	},
 	"asset": {
 		"image": "ui/icons/boyfriend",
-		"type": "graphic",
+		"type": "Graphic",
 		"dimensions": {"x": 150, "y": 150}
 	},
 	"animations": [

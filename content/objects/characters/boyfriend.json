@@ -16,7 +16,7 @@
 	},
 	"asset": {
 		"image": "characters/boyfriend/BOYFRIEND",
-		"type": "sparrow"
+		"type": "Sparrow"
 	},
 	"animations": [
 		{
