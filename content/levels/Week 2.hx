@@ -1,3 +1,3 @@
 function songNameDisplay(event)
 	if (!event.beatLevel)
-		event.songs.remove('Monster');
+		event.songs.pop();
