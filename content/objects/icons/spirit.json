@@ -3,6 +3,9 @@
 		"interval": 1,
 		"skipnegative": false
 	},
+	"offsets": {
+		"scale": {"x": 5, "y": 5}
+	},
 	"asset": {
 		"image": "ui/icons/spirit",
 		"type": "Graphic",
