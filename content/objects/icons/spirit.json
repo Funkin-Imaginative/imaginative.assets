@@ -4,7 +4,7 @@
 		"skipnegative": false
 	},
 	"offsets": {
-		"scale": {"x": 5, "y": 5}
+		"scale": {"x": 4.7, "y": 4.7}
 	},
 	"asset": {
 		"image": "ui/icons/spirit",
