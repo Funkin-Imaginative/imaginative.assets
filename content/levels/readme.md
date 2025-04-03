@@ -1,6 +1,8 @@
 # ../content/levels/
 Levels are what the weeks are, they contain all the songs and difficulties that'll load.
+
 When typing out the song listing make sure you type out the **folder** name.
+
 When typing out the difficulty listing make sure you type out the name in **all** lowercase.
 
 example below

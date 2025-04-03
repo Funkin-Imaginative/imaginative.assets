@@ -6,8 +6,8 @@ example below
 var huh:BaseSprite;
 
 function create() {
-    huh = new BaseSprite(135, 273, 'gameplay/combo/sick');
-    huh.scale.scale(0.8, 0.8);
+    huh = new BaseSprite(135, 273, 'main:gameplay/combo/sick');
+    huh.scale.set(0.8, 0.8);
     huh.updateHitbox();
     add(huh);
 }
