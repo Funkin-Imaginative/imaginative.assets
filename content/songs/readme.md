@@ -30,7 +30,6 @@ meta.json
 example below
 ```json
 {
-	"folder": "Philly Nice",
 	"icon": "pico",
 	"color": "#941653",
 	"startingDiff": 1,
