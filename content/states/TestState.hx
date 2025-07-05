@@ -57,5 +57,5 @@ function update(elapsed:Float):Void {
 	}
 
 	if (Controls.back)
-		BeatState.switchState(new TitleScreen());
+		BeatState.switchState(() -> new TitleScreen());
 }
