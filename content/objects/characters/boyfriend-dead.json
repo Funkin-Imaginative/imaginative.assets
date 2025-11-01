@@ -1,0 +1,52 @@
+{
+	"character": {
+		"camera": {"x": 10, "y": -50},
+		"color": "#31B0D1",
+		"icon": "boyfriend",
+		"singlength": 4
+	},
+	"beat": {
+		"interval": 2,
+		"skipnegative": false
+	},
+	"offsets": {
+		"position": {"x": 30, "y": 350},
+		"flip": {"x": true, "y": false},
+		"scale": {"x": 1, "y": 1}
+	},
+	"asset": {
+		"image": "characters/boyfriend/BOYFRIEND",
+		"type": "Sparrow"
+	},
+	"animations": [
+		{
+			"name": "dies",
+			"tag": "BF dies",
+			"indices": [],
+			"offset": {"x": 1, "y": 6},
+			"flip": {"x": false, "y": false},
+			"loop": false,
+			"fps": 24
+		},
+		{
+			"name": "idle",
+			"tag": "BF Dead Loop",
+			"indices": [],
+			"offset": {"x": 1, "y": 0},
+			"flip": {"x": false, "y": false},
+			"loop": false,
+			"fps": 24
+		},
+		{
+			"name": "retry",
+			"tag": "BF Dead confirm",
+			"indices": [],
+			"offset": {"x": 1, "y": 64},
+			"flip": {"x": false, "y": false},
+			"loop": false,
+			"fps": 24
+		}
+	],
+	"antialiasing": true,
+	"extra": []
+}
