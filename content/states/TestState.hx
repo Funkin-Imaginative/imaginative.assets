@@ -1,19 +1,12 @@
-import imaginative.states.TitleScreen;
-
 var p1:Character;
 var p2:Character;
 
 function render(?event):Void {
 	conductor.reset();
-	var song:String = 'Eggnog';
+	var song:String = 'Roses';
 	var variant:String = 'erect';
-	conductor.loadSong(song, variant, (_:FlxSound) -> {
-		conductor.addVocalTrack(song, '', variant);
-		conductor.addVocalTrack(song, 'Enemy', variant);
-		conductor.addVocalTrack(song, 'Player', variant);
-		conductor.play();
-
-	});
+	conductor.loadFullSong(song, variant == 'erect' ? 'nightmare' : 'hard', variant, (_:FlxSound) -> conductor.play());
+	log('Song $song on variant $variant.');
 }
 
 function create():Void {
@@ -28,34 +21,31 @@ function create():Void {
 }
 
 var anims:Array<String> = ['left', 'down', 'up', 'right'];
-
-var binds:Int->Bool = (dir:Int, is2:Bool) -> {
-	var controls:Controls = (is2 ?? false) ? Controls.p2 : Controls.p1;
-	return [controls.noteLeft, controls.noteDown, controls.noteUp, controls.noteRight][dir];
+function binds(dir:Int, is2:Bool = false):Bool {
+	return (is2 ? Controls.p2 : Controls.p1).notePressed(dir, 4);
 }
-var bindsHeld:Int->Bool = (dir:Int, is2:Bool) -> {
-	var controls:Controls = (is2 ?? false) ? Controls.p2 : Controls.p1;
-	return [controls.noteLeftHeld, controls.noteDownHeld, controls.noteUpHeld, controls.noteRightHeld][dir];
+function bindsHeld(dir:Int, is2:Bool = false):Bool {
+	return (is2 ? Controls.p2 : Controls.p1).noteHeld(dir, 4);
 }
 
 function update(elapsed:Float):Void {
 	for (char in [p1, p2]) {
 		for (i => name in anims) {
+			var nameUpper:String = name.toUpperCase();
 			if (binds(i, char == p2)) {
-				char.playAnim('sing' + name.toUpperCase(), true, 'IsSinging');
-				char.lastHit = conductor.time;
+				char.playAnim('sing$nameUpper', true, AnimationContext.IsSinging);
+				char.lastHit = time;
 			}
 			if (bindsHeld(i, char == p2)) {
-				char.lastHit = conductor.time;
-				if (char.getAnimName() != ('sing' + name.toUpperCase())) {
-					char.playAnim('sing' + name.toUpperCase(), true, 'IsSinging');
-				}
+				char.lastHit = time;
+				if (char.getAnimName(char == p2) != 'sing$nameUpper')
+					char.playAnim('sing$nameUpper', true, AnimationContext.IsSinging);
 			}
 			if (FlxG.keys.justPressed.SPACE)
-				char.playAnim('hey', true, 'NoSinging');
+				char.playAnim('hey', true, AnimationContext.NoSinging);
 		}
 	}
 
-	if (Controls.back)
+	if (Controls.global.back)
 		BeatState.switchState(() -> new TitleScreen());
 }
