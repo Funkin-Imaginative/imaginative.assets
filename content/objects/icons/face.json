@@ -1,8 +1,4 @@
 {
-	"beat": {
-		"interval": 1,
-		"skipnegative": false
-	},
 	"asset": {
 		"image": "ui/icons/face",
 		"type": "Graphic",
@@ -11,21 +7,11 @@
 	"animations": [
 		{
 			"name": "normal",
-			"indices": [0],
-			"offset": {"x": 0, "y": 0},
-			"flip": {"x": false, "y": false},
-			"loop": false,
-			"fps": 24
+			"indices": [0]
 		},
 		{
 			"name": "losing",
-			"indices": [1],
-			"offset": {"x": 0, "y": 0},
-			"flip": {"x": false, "y": false},
-			"loop": false,
-			"fps": 24
+			"indices": [1]
 		}
-	],
-	"antialiasing": true,
-	"extra": []
+	]
 }

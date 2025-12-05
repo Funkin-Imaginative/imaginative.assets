@@ -1,7 +1,6 @@
 {
 	"beat": {
-		"interval": 4,
-		"skipnegative": false
+		"interval": 4
 	},
 	"asset": {
 		"image": "menus/title/logoBumpin",
@@ -10,13 +9,7 @@
 	"animations": [
 		{
 			"name": "idle",
-			"tag": "logo bumpin",
-			"indices": [],
-			"offset": {"x": 0, "y": 0},
-			"flip": {"x": false, "y": false},
-			"loop": false,
-			"fps": 24
+			"tag": "logo bumpin"
 		}
-	],
-	"antialiasing": true
+	]
 }
