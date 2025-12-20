@@ -1,7 +1,7 @@
 var p1:Character;
 var p2:Character;
 
-function render(?event):Void {
+function render():Void {
 	conductor.reset();
 	var song:String = 'Roses';
 	var variant:String = 'erect';
@@ -11,7 +11,7 @@ function render(?event):Void {
 
 function create():Void {
 	render();
-	conductor._onComplete = render;
+	conductor._set('_onComplete', e -> render());
 	add(p1 = new Character(0, 0, 'boyfriend', true));
 	p1.screenCenter();
 	p1.x += 300;
@@ -33,16 +33,16 @@ function update(elapsed:Float):Void {
 		for (i => name in anims) {
 			var nameUpper:String = name.toUpperCase();
 			if (binds(i, char == p2)) {
-				char.playAnim('sing$nameUpper', true, AnimationContext.IsSinging);
+				char.playAnim('sing$nameUpper', true, 'IsSinging');
 				char.lastHit = time;
 			}
 			if (bindsHeld(i, char == p2)) {
 				char.lastHit = time;
 				if (char.getAnimName(char == p2) != 'sing$nameUpper')
-					char.playAnim('sing$nameUpper', true, AnimationContext.IsSinging);
+					char.playAnim('sing$nameUpper', true, 'IsSinging');
 			}
 			if (FlxG.keys.justPressed.SPACE)
-				char.playAnim('hey', true, AnimationContext.NoSinging);
+				char.playAnim('hey', true, 'NoSinging');
 		}
 	}
 
