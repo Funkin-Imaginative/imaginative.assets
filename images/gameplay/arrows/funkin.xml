@@ -1,69 +1,70 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<TextureAtlas imagePath="funkin.png">
-	<!-- Created with Adobe Animate version 21.0.7.42652 -->
-	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="down note end0000" x="1908" y="10" width="50" height="64"/>
-	<SubTexture name="down note head0000" x="1514" y="938" width="219" height="219"/>
-	<SubTexture name="down note hold0000" x="1908" y="158" width="50" height="44"/>
-	<SubTexture name="down strum confirm0000" x="646" y="10" width="306" height="306"/>
-	<SubTexture name="down strum confirm0001" x="962" y="10" width="306" height="306"/>
-	<SubTexture name="down strum confirm0002" x="926" y="938" width="286" height="286" frameX="-10" frameY="-10" frameWidth="306" frameHeight="306"/>
-	<SubTexture name="down strum confirm0003" x="926" y="938" width="286" height="286" frameX="-10" frameY="-10" frameWidth="306" frameHeight="306"/>
-	<SubTexture name="down strum hold confirm0000" x="1270" y="634" width="294" height="294"/>
-	<SubTexture name="down strum hold confirm0001" x="1270" y="634" width="294" height="294"/>
-	<SubTexture name="down strum hold confirm0002" x="10" y="636" width="294" height="294"/>
-	<SubTexture name="down strum hold confirm0003" x="10" y="636" width="294" height="294"/>
-	<SubTexture name="down strum press0000" x="1743" y="938" width="219" height="219"/>
-	<SubTexture name="down strum press0001" x="1743" y="938" width="219" height="219"/>
-	<SubTexture name="down strum press0002" x="10" y="940" width="219" height="219"/>
-	<SubTexture name="down strum press0003" x="10" y="940" width="219" height="219"/>
-	<SubTexture name="down strum static0000" x="1222" y="1230" width="173" height="173"/>
-	<SubTexture name="left note end0000" x="1968" y="10" width="50" height="64"/>
-	<SubTexture name="left note head0000" x="239" y="940" width="219" height="219"/>
-	<SubTexture name="left note hold0000" x="1968" y="158" width="50" height="44"/>
-	<SubTexture name="left strum confirm0000" x="1278" y="10" width="306" height="306"/>
-	<SubTexture name="left strum confirm0001" x="318" y="328" width="296" height="296" frameX="-5" frameY="-5" frameWidth="306" frameHeight="306"/>
-	<SubTexture name="left strum confirm0002" x="624" y="638" width="292" height="292" frameX="-7" frameY="-7" frameWidth="306" frameHeight="306"/>
-	<SubTexture name="left strum confirm0003" x="624" y="638" width="292" height="292" frameX="-7" frameY="-7" frameWidth="306" frameHeight="306"/>
-	<SubTexture name="left strum hold confirm0000" x="646" y="326" width="302" height="302"/>
-	<SubTexture name="left strum hold confirm0001" x="646" y="326" width="302" height="302"/>
-	<SubTexture name="left strum hold confirm0002" x="958" y="326" width="302" height="302"/>
-	<SubTexture name="left strum hold confirm0003" x="958" y="326" width="302" height="302"/>
-	<SubTexture name="left strum press0000" x="468" y="940" width="219" height="219"/>
-	<SubTexture name="left strum press0001" x="468" y="940" width="219" height="219"/>
-	<SubTexture name="left strum press0002" x="697" y="940" width="219" height="219"/>
-	<SubTexture name="left strum press0003" x="697" y="940" width="219" height="219"/>
-	<SubTexture name="left strum static0000" x="926" y="1234" width="173" height="173"/>
-	<SubTexture name="right note end0000" x="1908" y="84" width="50" height="64"/>
-	<SubTexture name="right note head0000" x="1514" y="1167" width="219" height="219"/>
-	<SubTexture name="right note hold0000" x="1908" y="212" width="50" height="44"/>
-	<SubTexture name="right strum confirm0000" x="1270" y="326" width="298" height="298"/>
-	<SubTexture name="right strum confirm0001" x="10" y="328" width="298" height="298"/>
-	<SubTexture name="right strum confirm0002" x="318" y="634" width="296" height="296" frameX="-1" frameY="-1" frameWidth="298" frameHeight="298"/>
-	<SubTexture name="right strum confirm0003" x="318" y="634" width="296" height="296" frameX="-1" frameY="-1" frameWidth="298" frameHeight="298"/>
-	<SubTexture name="right strum hold confirm0000" x="1594" y="10" width="304" height="304"/>
-	<SubTexture name="right strum hold confirm0001" x="1594" y="10" width="304" height="304"/>
-	<SubTexture name="right strum hold confirm0002" x="1594" y="324" width="304" height="304"/>
-	<SubTexture name="right strum hold confirm0003" x="1594" y="324" width="304" height="304"/>
-	<SubTexture name="right strum press0000" x="1743" y="1167" width="219" height="219"/>
-	<SubTexture name="right strum press0001" x="1743" y="1167" width="219" height="219"/>
-	<SubTexture name="right strum press0002" x="10" y="1169" width="219" height="219"/>
-	<SubTexture name="right strum press0003" x="10" y="1169" width="219" height="219"/>
-	<SubTexture name="right strum static0000" x="1405" y="1396" width="173" height="173"/>
-	<SubTexture name="up note end0000" x="1968" y="84" width="50" height="64"/>
-	<SubTexture name="up note head0000" x="239" y="1169" width="219" height="219"/>
-	<SubTexture name="up note hold0000" x="1968" y="212" width="50" height="44"/>
-	<SubTexture name="up strum confirm0000" x="10" y="10" width="308" height="308"/>
-	<SubTexture name="up strum confirm0001" x="328" y="10" width="308" height="308"/>
-	<SubTexture name="up strum confirm0002" x="1222" y="938" width="282" height="282" frameX="-13" frameY="-13" frameWidth="308" frameHeight="308"/>
-	<SubTexture name="up strum confirm0003" x="1222" y="938" width="282" height="282" frameX="-13" frameY="-13" frameWidth="308" frameHeight="308"/>
-	<SubTexture name="up strum hold confirm0000" x="926" y="638" width="290" height="290"/>
-	<SubTexture name="up strum hold confirm0001" x="926" y="638" width="290" height="290"/>
-	<SubTexture name="up strum hold confirm0002" x="1574" y="638" width="290" height="290"/>
-	<SubTexture name="up strum hold confirm0003" x="1574" y="638" width="290" height="290"/>
-	<SubTexture name="up strum press0000" x="468" y="1169" width="219" height="219"/>
-	<SubTexture name="up strum press0001" x="468" y="1169" width="219" height="219"/>
-	<SubTexture name="up strum press0002" x="697" y="1169" width="219" height="219"/>
-	<SubTexture name="up strum press0003" x="697" y="1169" width="219" height="219"/>
-	<SubTexture name="up strum static0000" x="1588" y="1396" width="173" height="173"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="funkin.png" width="1404" height="983">
+	<SubTexture name="down note end0000" x="834" y="654" width="50" height="64" frameX="-0" frameY="-0" frameWidth="50" frameHeight="64"/>
+	<SubTexture name="down note head0000" x="526" y="477" width="157" height="154" frameX="-8" frameY="-10" frameWidth="174" frameHeight="174"/>
+	<SubTexture name="down note hold0000" x="774" y="806" width="50" height="44" frameX="-0" frameY="-0" frameWidth="50" frameHeight="44"/>
+	<SubTexture name="down strum confirm0000" x="2" y="2" width="256" height="270" frameX="-27" frameY="-20" frameWidth="316" frameHeight="316"/>
+	<SubTexture name="down strum confirm0001" x="2" y="274" width="256" height="270" frameX="-27" frameY="-20" frameWidth="316" frameHeight="316"/>
+	<SubTexture name="down strum confirm0002" x="264" y="803" width="178" height="176" frameX="-67" frameY="-68" frameWidth="316" frameHeight="316"/>
+	<SubTexture name="down strum confirm0003" x="264" y="803" width="178" height="176" frameX="-67" frameY="-68" frameWidth="316" frameHeight="316"/>
+	<SubTexture name="down strum hold confirm0000" x="1038" y="2" width="200" height="200" frameX="-30" frameY="-30" frameWidth="316" frameHeight="316"/>
+	<SubTexture name="down strum hold confirm0001" x="1038" y="2" width="200" height="200" frameX="-30" frameY="-30" frameWidth="316" frameHeight="316"/>
+	<SubTexture name="down strum hold confirm0002" x="264" y="803" width="178" height="176" frameX="-41" frameY="-42" frameWidth="316" frameHeight="316"/>
+	<SubTexture name="down strum hold confirm0003" x="264" y="803" width="178" height="176" frameX="-41" frameY="-42" frameWidth="316" frameHeight="316"/>
+	<SubTexture name="down strum press0000" x="1211" y="822" width="142" height="138" frameX="-16" frameY="-18" frameWidth="174" frameHeight="174"/>
+	<SubTexture name="down strum press0001" x="1211" y="822" width="142" height="138" frameX="-16" frameY="-18" frameWidth="174" frameHeight="174"/>
+	<SubTexture name="down strum press0002" x="834" y="742" width="150" height="146" frameX="-12" frameY="-14" frameWidth="174" frameHeight="174"/>
+	<SubTexture name="down strum press0003" x="834" y="742" width="150" height="146" frameX="-12" frameY="-14" frameWidth="174" frameHeight="174"/>
+	<SubTexture name="down strum static0000" x="526" y="633" width="157" height="154" frameX="-8" frameY="-10" frameWidth="174" frameHeight="174"/>
+	<SubTexture name="left note end0000" x="986" y="742" width="50" height="64" frameX="-0" frameY="-0" frameWidth="50" frameHeight="64"/>
+	<SubTexture name="left note head0000" x="1239" y="204" width="154" height="157" frameX="-10" frameY="-8" frameWidth="174" frameHeight="174"/>
+	<SubTexture name="left note hold0000" x="774" y="852" width="50" height="44" frameX="-0" frameY="-0" frameWidth="50" frameHeight="44"/>
+	<SubTexture name="left strum confirm0000" x="2" y="546" width="260" height="265" frameX="-26" frameY="-23" frameWidth="316" frameHeight="316"/>
+	<SubTexture name="left strum confirm0001" x="260" y="2" width="260" height="265" frameX="-26" frameY="-23" frameWidth="316" frameHeight="316"/>
+	<SubTexture name="left strum confirm0002" x="444" y="803" width="176" height="178" frameX="-68" frameY="-67" frameWidth="316" frameHeight="316"/>
+	<SubTexture name="left strum confirm0003" x="444" y="803" width="176" height="178" frameX="-68" frameY="-67" frameWidth="316" frameHeight="316"/>
+	<SubTexture name="left strum hold confirm0000" x="522" y="273" width="199" height="202" frameX="-31" frameY="-29" frameWidth="316" frameHeight="316"/>
+	<SubTexture name="left strum hold confirm0001" x="522" y="273" width="199" height="202" frameX="-31" frameY="-29" frameWidth="316" frameHeight="316"/>
+	<SubTexture name="left strum hold confirm0002" x="444" y="803" width="176" height="178" frameX="-42" frameY="-41" frameWidth="316" frameHeight="316"/>
+	<SubTexture name="left strum hold confirm0003" x="444" y="803" width="176" height="178" frameX="-42" frameY="-41" frameWidth="316" frameHeight="316"/>
+	<SubTexture name="left strum press0000" x="1211" y="678" width="139" height="142" frameX="-17" frameY="-16" frameWidth="174" frameHeight="174"/>
+	<SubTexture name="left strum press0001" x="1211" y="678" width="139" height="142" frameX="-17" frameY="-16" frameWidth="174" frameHeight="174"/>
+	<SubTexture name="left strum press0002" x="685" y="654" width="147" height="150" frameX="-13" frameY="-12" frameWidth="174" frameHeight="174"/>
+	<SubTexture name="left strum press0003" x="685" y="654" width="147" height="150" frameX="-13" frameY="-12" frameWidth="174" frameHeight="174"/>
+	<SubTexture name="left strum static0000" x="1240" y="2" width="154" height="157" frameX="-10" frameY="-8" frameWidth="174" frameHeight="174"/>
+	<SubTexture name="right note end0000" x="1352" y="666" width="50" height="64" frameX="-0" frameY="-0" frameWidth="50" frameHeight="64"/>
+	<SubTexture name="right note head0000" x="1239" y="363" width="154" height="157" frameX="-10" frameY="-8" frameWidth="174" frameHeight="174"/>
+	<SubTexture name="right note hold0000" x="1130" y="830" width="50" height="44" frameX="-0" frameY="-0" frameWidth="50" frameHeight="44"/>
+	<SubTexture name="right strum confirm0000" x="260" y="269" width="260" height="265" frameX="-25" frameY="-24" frameWidth="316" frameHeight="316"/>
+	<SubTexture name="right strum confirm0001" x="264" y="536" width="260" height="265" frameX="-25" frameY="-24" frameWidth="316" frameHeight="316"/>
+	<SubTexture name="right strum confirm0002" x="923" y="406" width="176" height="178" frameX="-68" frameY="-67" frameWidth="316" frameHeight="316"/>
+	<SubTexture name="right strum confirm0003" x="923" y="406" width="176" height="178" frameX="-68" frameY="-67" frameWidth="316" frameHeight="316"/>
+	<SubTexture name="right strum hold confirm0000" x="723" y="273" width="198" height="201" frameX="-31" frameY="-30" frameWidth="316" frameHeight="316"/>
+	<SubTexture name="right strum hold confirm0001" x="723" y="273" width="198" height="201" frameX="-31" frameY="-30" frameWidth="316" frameHeight="316"/>
+	<SubTexture name="right strum hold confirm0002" x="923" y="406" width="176" height="178" frameX="-42" frameY="-41" frameWidth="316" frameHeight="316"/>
+	<SubTexture name="right strum hold confirm0003" x="923" y="406" width="176" height="178" frameX="-42" frameY="-41" frameWidth="316" frameHeight="316"/>
+	<SubTexture name="right strum press0000" x="1260" y="522" width="139" height="142" frameX="-17" frameY="-16" frameWidth="174" frameHeight="174"/>
+	<SubTexture name="right strum press0001" x="1260" y="522" width="139" height="142" frameX="-17" frameY="-16" frameWidth="174" frameHeight="174"/>
+	<SubTexture name="right strum press0002" x="1062" y="678" width="147" height="150" frameX="-13" frameY="-12" frameWidth="174" frameHeight="174"/>
+	<SubTexture name="right strum press0003" x="1062" y="678" width="147" height="150" frameX="-13" frameY="-12" frameWidth="174" frameHeight="174"/>
+	<SubTexture name="right strum static0000" x="2" y="813" width="155" height="157" frameX="-9" frameY="-8" frameWidth="174" frameHeight="174"/>
+	<SubTexture name="up note end0000" x="1352" y="732" width="50" height="64" frameX="-0" frameY="-0" frameWidth="50" frameHeight="64"/>
+	<SubTexture name="up note head0000" x="1101" y="522" width="157" height="154" frameX="-8" frameY="-10" frameWidth="174" frameHeight="174"/>
+	<SubTexture name="up note hold0000" x="1130" y="876" width="50" height="44" frameX="-0" frameY="-0" frameWidth="50" frameHeight="44"/>
+	<SubTexture name="up strum confirm0000" x="522" y="2" width="256" height="269" frameX="-28" frameY="-22" frameWidth="316" frameHeight="316"/>
+	<SubTexture name="up strum confirm0001" x="780" y="2" width="256" height="269" frameX="-28" frameY="-22" frameWidth="316" frameHeight="316"/>
+	<SubTexture name="up strum confirm0002" x="723" y="476" width="178" height="176" frameX="-67" frameY="-68" frameWidth="316" frameHeight="316"/>
+	<SubTexture name="up strum confirm0003" x="723" y="476" width="178" height="176" frameX="-67" frameY="-68" frameWidth="316" frameHeight="316"/>
+	<SubTexture name="up strum hold confirm0000" x="1038" y="204" width="199" height="200" frameX="-31" frameY="-30" frameWidth="316" frameHeight="316"/>
+	<SubTexture name="up strum hold confirm0001" x="1038" y="204" width="199" height="200" frameX="-31" frameY="-30" frameWidth="316" frameHeight="316"/>
+	<SubTexture name="up strum hold confirm0002" x="723" y="476" width="178" height="176" frameX="-41" frameY="-42" frameWidth="316" frameHeight="316"/>
+	<SubTexture name="up strum hold confirm0003" x="723" y="476" width="178" height="176" frameX="-41" frameY="-42" frameWidth="316" frameHeight="316"/>
+	<SubTexture name="up strum press0000" x="986" y="830" width="142" height="138" frameX="-16" frameY="-18" frameWidth="174" frameHeight="174"/>
+	<SubTexture name="up strum press0001" x="986" y="830" width="142" height="138" frameX="-16" frameY="-18" frameWidth="174" frameHeight="174"/>
+	<SubTexture name="up strum press0002" x="622" y="806" width="150" height="146" frameX="-12" frameY="-14" frameWidth="174" frameHeight="174"/>
+	<SubTexture name="up strum press0003" x="622" y="806" width="150" height="146" frameX="-12" frameY="-14" frameWidth="174" frameHeight="174"/>
+	<SubTexture name="up strum static0000" x="903" y="586" width="157" height="154" frameX="-8" frameY="-10" frameWidth="174" frameHeight="174"/>
 </TextureAtlas>
