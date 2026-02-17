@@ -11,7 +11,7 @@ function render():Void {
 
 function create():Void {
 	render();
-	conductor._set('_onComplete', e -> render());
+	conductor._onComplete = e -> render();
 	add(p1 = new Character(0, 0, 'boyfriend', true));
 	p1.screenCenter();
 	p1.x += 300;
