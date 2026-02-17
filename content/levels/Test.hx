@@ -1,2 +1,2 @@
-function shouldLock():Void
-	return !Settings.setup.debugMode;
+function onLevelHiddenCheck():Void
+	return true;
