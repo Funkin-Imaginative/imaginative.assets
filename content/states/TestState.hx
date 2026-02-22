@@ -4,7 +4,7 @@ var p2:Character;
 function render():Void {
 	conductor.reset();
 	var song:String = 'Roses';
-	var variant:String = 'erect';
+	var variant:Null<String> = 'erect';
 	conductor.loadFullSong(song, variant == 'erect' ? 'nightmare' : 'hard', variant, (_:FlxSound) -> conductor.play());
 	log('Song $song on variant $variant.');
 }
