@@ -2933,6 +2933,7 @@
 		"enemy": "enemy"
 	},
 	"events": [],
+	"hud": "vslice",
 	"characters": [
 		{
 			"position": "enemy",
