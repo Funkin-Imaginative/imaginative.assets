@@ -3,8 +3,5 @@
 	"color": "#223344",
 	"startingDiff": 1,
 	"difficulties": ["easy", "normal", "hard"],
-	"allowedModes": {
-		"playAsEnemy": true,
-		"p2AsEnemy": true
-	}
+	"gamemodes": {"botplay": true, "be-enemy": true, "2player": true}
 }
