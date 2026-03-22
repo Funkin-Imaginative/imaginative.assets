@@ -1,9 +1,5 @@
 {
-	"asset": {
-		"image": "ui/icons/boyfriend",
-		"type": "Graphic",
-		"dimensions": {"x": 150, "y": 150}
-	},
+	"asset": {"image": "ui/icons/boyfriend", "slots": [2, 1]},
 	"animations": [
 		{
 			"name": "normal",

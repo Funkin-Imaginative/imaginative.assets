@@ -1,11 +1,6 @@
 {
-	"beat": {
-		"interval": 1 // isn't defaulting to 1
-	},
-	"asset": {
-		"image": "menus/title/gfDanceTitle",
-		"type": "Sparrow"
-	},
+	"beat": {"interval": 1}, // isn't defaulting to 1
+	"asset": {"image": "menus/title/gfDanceTitle"},
 	"animations": [
 		{
 			"name": "idle",

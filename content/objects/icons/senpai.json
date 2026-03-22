@@ -1,12 +1,8 @@
 {
 	"offsets": {
-		"scale": {"x": 4.7, "y": 4.7}
+		"scale": [4.7, 4.7]
 	},
-	"asset": {
-		"image": "ui/icons/senpai",
-		"type": "Graphic",
-		"dimensions": {"x": 32, "y": 32}
-	},
+	"asset": {"image": "ui/icons/senpai", "slots": [1, 1]},
 	"animations": [
 		{
 			"name": "normal",

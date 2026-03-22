@@ -1,9 +1,5 @@
 {
-	"asset": {
-		"image": "ui/icons/dad",
-		"type": "Graphic",
-		"dimensions": {"x": 150, "y": 150}
-	},
+	"asset": {"image": "ui/icons/dad", "slots": [1, 1]},
 	"animations": [
 		{
 			"name": "normal",

@@ -1,9 +1,5 @@
 {
-	"asset": {
-		"image": "ui/icons/face",
-		"type": "Graphic",
-		"dimensions": {"x": 150, "y": 150}
-	},
+	"asset": {"image": "ui/icons/face", "slots": [2, 1]},
 	"animations": [
 		{
 			"name": "normal",

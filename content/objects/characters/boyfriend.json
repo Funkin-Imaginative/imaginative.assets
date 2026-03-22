@@ -1,16 +1,13 @@
 {
 	"character": {
-		"camera": {"x": 5, "y": -100},
+		"camera": [5, -100],
 		"color": "#31B0D1"
 	},
 	"offsets": {
-		"position": {"x": 30, "y": 350},
-		"flip": {"x": true, "y": false}
+		"position": [30, 350],
+		"flip": [true, false]
 	},
-	"asset": {
-		"image": "characters/boyfriend/BOYFRIEND",
-		"type": "Sparrow"
-	},
+	"asset": {"image": "characters/boyfriend/BOYFRIEND"},
 	"animations": [
 		{
 			"name": "idle",
@@ -20,50 +17,50 @@
 			"name": "singLEFT",
 			"swapKey": "singRIGHT",
 			"tag": "BF NOTE RIGHT0",
-			"offset": {"x": 41, "y": -6}
+			"offset": [41, -6]
 		},
 		{
 			"name": "singDOWN",
 			"tag": "BF NOTE DOWN0",
-			"offset": {"x": -16, "y": -49}
+			"offset": [-16, -49]
 		},
 		{
 			"name": "singUP",
 			"tag": "BF NOTE UP0",
-			"offset": {"x": 8, "y": 33}
+			"offset": [8, 33]
 		},
 		{
 			"name": "singRIGHT",
 			"swapKey": "singLEFT",
 			"tag": "BF NOTE LEFT0",
-			"offset": {"x": -35, "y": -6}
+			"offset": [-35, -6]
 		},
 		{
 			"name": "singLEFTmiss",
 			"swapKey": "singRIGHTmiss",
 			"tag": "BF NOTE RIGHT MISS",
-			"offset": {"x": 42, "y": 20}
+			"offset": [42, 20]
 		},
 		{
 			"name": "singDOWNmiss",
 			"tag": "BF NOTE DOWN MISS",
-			"offset": {"x": -11, "y": -18}
+			"offset": [-11, -18]
 		},
 		{
 			"name": "singUPmiss",
 			"tag": "BF NOTE UP MISS",
-			"offset": {"x": 8, "y": 33}
+			"offset": [8, 33]
 		},
 		{
 			"name": "singRIGHTmiss",
 			"swapKey": "singLEFTmiss",
 			"tag": "BF NOTE LEFT MISS",
-			"offset": {"x": -33, "y": 23}
+			"offset": [-33, 23]
 		},
 		{
 			"name": "hey",
 			"tag": "BF HEY!!",
-			"offset": {"x": 2, "y": 6}
+			"offset": [2, 6]
 		}
 	]
 }
