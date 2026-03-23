@@ -1,7 +1,5 @@
 {
-	"offsets": {
-		"scale": [4.7, 4.7]
-	},
+	"offsets": {"scale": 4.7},
 	"asset": {"image": "ui/icons/boyfriend-pixel", "slots": [1, 1]},
 	"animations": [
 		{

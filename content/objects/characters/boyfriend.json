@@ -5,7 +5,7 @@
 	},
 	"offsets": {
 		"position": [30, 350],
-		"flip": [true, false]
+		"flip": true
 	},
 	"asset": {"image": "characters/boyfriend/BOYFRIEND"},
 	"animations": [
