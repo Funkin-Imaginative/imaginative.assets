@@ -1,6 +1,6 @@
 {
 	"title": "Due Debts",
-	"songs": ["Darnell", "Lit Up", "2Hot", "Blazin'"],
+	"songs": ["darnell", "lit-up", "2hot", "blazin"],
 	"startingDiff": 1,
 	"difficulties": ["easy", "normal", "hard"],
 	"sprites": [

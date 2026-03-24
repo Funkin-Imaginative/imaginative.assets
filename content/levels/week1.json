@@ -1,6 +1,6 @@
 {
 	"title": "Daddy Dearest",
-	"songs": ["Bopeebo", "Fresh", "DadBattle"],
+	"songs": ["bopeebo", "fresh", "dadbattle"],
 	"startingDiff": 1,
 	"difficulties": ["easy", "normal", "hard"],
 	"sprites": [

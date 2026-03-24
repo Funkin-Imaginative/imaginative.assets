@@ -1,6 +1,6 @@
 {
 	"title": "Teaching Time",
-	"songs": ["Tutorial"],
+	"songs": ["tutorial"],
 	"startingDiff": 1,
 	"difficulties": ["easy", "normal", "hard"],
 	"sprites": [

@@ -1,10 +1,10 @@
 {
-	"title": "Tankman ft. JohnnyUtah",
-	"songs": ["Ugh", "Guns", "Stress"],
+	"title": "Mommy Must Murder",
+	"songs": ["satin-panties", "high", "milf"],
 	"startingDiff": 1,
 	"difficulties": ["easy", "normal", "hard"],
 	"sprites": [
-		{"sprite": "main:characters/tankman"},
+		{"sprite": "main:characters/mom"},
 		{"sprite": "main:characters/boyfriend"},
 		{"sprite": "main:characters/gf"}
 	],

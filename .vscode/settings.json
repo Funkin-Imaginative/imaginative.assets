@@ -1,4 +1,8 @@
 {
+	"cSpell.words": [
+		"blammed"
+	],
+
 	"editor.codeActionsOnSave": {
 		"source.organizeImports": "always",
 		"source.sortImports": "always"

@@ -1,6 +1,6 @@
 {
 	"title": "Testing Things Out",
-	"songs": ["Test"],
+	"songs": ["test"],
 	"difficulties": ["normal"],
 	"sprites": [
 		{"sprite": "main:characters/boyfriend"},
